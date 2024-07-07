@@ -76,3 +76,62 @@
   /* height: 100%;
     width: 100%;   */
 }
+/* midnight section style  */
+.midnight-party-container{
+    height: 600px;
+    background-color:rgba(0,0,0,0.5);
+    width: 1320px;
+    /* border:2px solid red; */
+    margin:0 auto;
+    display: flex;
+    background-image: url('images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    margin-top: 50px;
+
+}
+.leftside-content{
+    width: 50%;
+    /* height: 1320px; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+.leftside-content h1{
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900px;
+}
+.leftside-content p{
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 10px;
+}
+.rightside-content{
+    width: 50%;
+    /* height: 1320px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+#mid-button{
+    
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+
+
+margin-right: 510px;
+
+}
