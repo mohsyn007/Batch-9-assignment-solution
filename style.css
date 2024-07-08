@@ -90,6 +90,7 @@
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     margin-top: 50px;
+    margin-bottom: 100px;
 
 }
 .leftside-content{
@@ -134,4 +135,68 @@ font-weight: 700;
 
 margin-right: 510px;
 
+}
+/* holiday style */
+.holiday-section-container{
+height: 985px;
+width: 1320px;
+border: 2px solid red;
+margin-top: 100px;
+margin:0 auto;
+position: relative;
+}
+.holiday-text-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1068;
+    height: 260;
+    margin:0 auto;
+}
+.holiday-text-container h5
+{
+    color: rgb(7,2,17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.holiday-text-container h1
+{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900px;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday
+{
+    color: rgb(255,0,0);
+}
+.holiday-text-container p
+{
+    color: rgba(7,2,17,0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.solid-color
+{
+    width: 1320px;
+    height: 230px;
+    background-color: red;
+    position:absolute;
+    top: 77%;
+}
+.giftbox
+{
+    width: 700px;
+    height: 600px;
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
